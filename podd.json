@@ -1,0 +1,124 @@
+{
+  "uuid": "762ba5a1-dc6a-4d0e-8245-b56d7f46c4aa",
+  "lastMigration": 20,
+  "name": "Podd",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 4561,
+  "hostname": "0.0.0.0",
+  "routes": [
+    {
+      "uuid": "260513a6-5980-48cd-9538-8223166c4dab",
+      "documentation": "",
+      "method": "post",
+      "endpoint": "api-token-auth",
+      "responses": [
+        {
+          "uuid": "c74802cc-8d0e-41ea-8dfe-f3e94e9593fa",
+          "body": "{\r\n  \"token\": \"xdfdfer990df90efefef\",\r\n  \"name\": \"Polawat Phetra\",\r\n  \"username\": \"pphetra\",\r\n  \"firstName\": \"Polawat\",\r\n  \"lastName\": \"Phetra\",\r\n  \"status\": \"PODD\",\r\n  \"contact\": \"xx\",\r\n  \"avatarUrl\": \"https://podd.s3.amazonaws.com/0cdf62c0-a034-4ec5-bcdf-27cdf1bfc5f1\",\r\n  \"thumbnailAvatarUrl\": \"https://podd.s3.amazonaws.com/fa8f625d-c8aa-4b49-85da-adbd74aa7bd0\",\r\n  \"authorityAdmins\": [],\r\n  \"isStaff\": true,\r\n  \"isSuperuser\": false,\r\n  \"isAnonymous\": false,\r\n  \"isPublic\": false,\r\n  \"permissions\": [\r\n    \"view_dashboard_plan\",\r\n    \"view_dashboard_subscibe\",\r\n    \"view_dashboard_users\",\r\n    \"view_dashboard_summary_admin_report\",\r\n    \"view_dashboard_summary_report\",\r\n    \"view_dashboard_summary_subscribe_report\"\r\n  ]\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "user default",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "body",
+              "modifier": "username",
+              "value": "pphetra",
+              "operator": "equals"
+            },
+            {
+              "target": "body",
+              "modifier": "password",
+              "value": "MY_PASSWORD",
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
+          "disableTemplating": false,
+          "fallbackTo404": true,
+          "default": false
+        },
+        {
+          "uuid": "4b9dacf8-6293-4bf7-abe1-57b4db3d8591",
+          "body": "{\r\n  \"token\": \"xdfdfer990df90efefef\",\r\n  \"name\": \"สมชาย แสดวงการ\",\r\n  \"username\": \"pphetra\",\r\n  \"firstName\": \"Polawat\",\r\n  \"lastName\": \"Phetra\",\r\n  \"status\": \"PODD\",\r\n  \"contact\": \"xx\",\r\n  \"avatarUrl\": \"https://podd.s3.amazonaws.com/0cdf62c0-a034-4ec5-bcdf-27cdf1bfc5f1\",\r\n  \"thumbnailAvatarUrl\": \"https://podd.s3.amazonaws.com/fa8f625d-c8aa-4b49-85da-adbd74aa7bd0\",\r\n  \"authorityAdmins\": [],\r\n  \"isStaff\": true,\r\n  \"isSuperuser\": false,\r\n  \"isAnonymous\": false,\r\n  \"isPublic\": false,\r\n  \"permissions\": [\r\n    \"view_dashboard_plan\",\r\n    \"view_dashboard_subscibe\",\r\n    \"view_dashboard_users\",\r\n    \"view_dashboard_summary_admin_report\",\r\n    \"view_dashboard_summary_report\",\r\n    \"view_dashboard_summary_subscribe_report\"\r\n  ]\r\n}}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "username xxx",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "body",
+              "modifier": "username",
+              "value": "xxx",
+              "operator": "equals"
+            },
+            {
+              "target": "body",
+              "modifier": "password",
+              "value": "yyy",
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
+          "disableTemplating": false,
+          "fallbackTo404": true,
+          "default": false
+        },
+        {
+          "uuid": "77478bda-d094-4452-bed6-da5e3b47c5fa",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 401,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "randomResponse": false,
+      "sequentialResponse": false
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ]
+}
