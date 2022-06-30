@@ -42,6 +42,34 @@
           "default": false
         },
         {
+          "uuid": "9b2cb653-530c-4fe7-937a-661693e4fa2d",
+          "body": "{\r\n  \"token\": \"xdfdfer990df90efefef\",\r\n  \"name\": \"นาย ไก๋\",\r\n  \"username\": \"pphetra\",\r\n  \"firstName\": \"Polawat\",\r\n  \"lastName\": \"Phetra\",\r\n  \"status\": \"PODD\",\r\n  \"contact\": \"xx\",\r\n  \"avatarUrl\": \"https://podd.s3.amazonaws.com/0cdf62c0-a034-4ec5-bcdf-27cdf1bfc5f1\",\r\n  \"thumbnailAvatarUrl\": \"https://podd.s3.amazonaws.com/fa8f625d-c8aa-4b49-85da-adbd74aa7bd0\",\r\n  \"authorityAdmins\": [],\r\n  \"isStaff\": true,\r\n  \"isSuperuser\": false,\r\n  \"isAnonymous\": false,\r\n  \"isPublic\": false,\r\n  \"permissions\": [\r\n    \"view_dashboard_plan\",\r\n    \"view_dashboard_subscibe\",\r\n    \"view_dashboard_users\",\r\n    \"view_dashboard_summary_admin_report\",\r\n    \"view_dashboard_summary_report\",\r\n    \"view_dashboard_summary_subscribe_report\"\r\n  ]\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "user kai",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "body",
+              "modifier": "username",
+              "value": "kai",
+              "operator": "equals"
+            },
+            {
+              "target": "body",
+              "modifier": "password",
+              "value": "kai",
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
+          "disableTemplating": false,
+          "fallbackTo404": true,
+          "default": false
+        },
+        {
           "uuid": "4b9dacf8-6293-4bf7-abe1-57b4db3d8591",
           "body": "{\r\n  \"token\": \"xdfdfer990df90efefef\",\r\n  \"name\": \"สมชาย แสดวงการ\",\r\n  \"username\": \"pphetra\",\r\n  \"firstName\": \"Polawat\",\r\n  \"lastName\": \"Phetra\",\r\n  \"status\": \"PODD\",\r\n  \"contact\": \"xx\",\r\n  \"avatarUrl\": \"https://podd.s3.amazonaws.com/0cdf62c0-a034-4ec5-bcdf-27cdf1bfc5f1\",\r\n  \"thumbnailAvatarUrl\": \"https://podd.s3.amazonaws.com/fa8f625d-c8aa-4b49-85da-adbd74aa7bd0\",\r\n  \"authorityAdmins\": [],\r\n  \"isStaff\": true,\r\n  \"isSuperuser\": false,\r\n  \"isAnonymous\": false,\r\n  \"isPublic\": false,\r\n  \"permissions\": [\r\n    \"view_dashboard_plan\",\r\n    \"view_dashboard_subscibe\",\r\n    \"view_dashboard_users\",\r\n    \"view_dashboard_summary_admin_report\",\r\n    \"view_dashboard_summary_report\",\r\n    \"view_dashboard_summary_subscribe_report\"\r\n  ]\r\n}}",
           "latency": 0,
