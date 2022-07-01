@@ -98,6 +98,62 @@
           "default": false
         },
         {
+          "uuid": "555fb2a5-1c7e-4696-8023-6fc13e72a6f0",
+          "body": "{\r\n  \"token\": \"xdfdfer990df90efefef\",\r\n  \"name\": \"ภัทรประภา คำเขียว\",\r\n  \"username\": \"bew\",\r\n  \"firstName\": \"bew\",\r\n  \"lastName\": \"Pataraprapa\",\r\n  \"status\": \"PODD\",\r\n  \"contact\": \"xx\",\r\n  \"avatarUrl\": \"https://podd.s3.amazonaws.com/0cdf62c0-a034-4ec5-bcdf-27cdf1bfc5f1\",\r\n  \"thumbnailAvatarUrl\": \"https://podd.s3.amazonaws.com/fa8f625d-c8aa-4b49-85da-adbd74aa7bd0\",\r\n  \"authorityAdmins\": [],\r\n  \"isStaff\": true,\r\n  \"isSuperuser\": false,\r\n  \"isAnonymous\": false,\r\n  \"isPublic\": false,\r\n  \"permissions\": [\r\n    \"view_dashboard_plan\",\r\n    \"view_dashboard_subscibe\",\r\n    \"view_dashboard_users\",\r\n    \"view_dashboard_summary_admin_report\",\r\n    \"view_dashboard_summary_report\",\r\n    \"view_dashboard_summary_subscribe_report\"\r\n  ]\r\n}}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "username bew",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "body",
+              "modifier": "username",
+              "value": "bew",
+              "operator": "equals"
+            },
+            {
+              "target": "body",
+              "modifier": "password",
+              "value": "bew",
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
+          "disableTemplating": false,
+          "fallbackTo404": true,
+          "default": false
+        },
+        {
+          "uuid": "bd1a71a3-0387-4506-ad85-bad4a5afe65e",
+          "body": "{\r\n  \"token\": \"xdfdfer990df90efefef\",\r\n  \"name\": \"จิระเมศร์ น่ะจ้ะ\",\r\n  \"username\": \"pp\",\r\n  \"firstName\": \"pp\",\r\n  \"lastName\": \"Pataraprapa\",\r\n  \"status\": \"PODD\",\r\n  \"contact\": \"xx\",\r\n  \"avatarUrl\": \"https://podd.s3.amazonaws.com/0cdf62c0-a034-4ec5-bcdf-27cdf1bfc5f1\",\r\n  \"thumbnailAvatarUrl\": \"https://podd.s3.amazonaws.com/fa8f625d-c8aa-4b49-85da-adbd74aa7bd0\",\r\n  \"authorityAdmins\": [],\r\n  \"isStaff\": true,\r\n  \"isSuperuser\": false,\r\n  \"isAnonymous\": false,\r\n  \"isPublic\": false,\r\n  \"permissions\": [\r\n    \"view_dashboard_plan\",\r\n    \"view_dashboard_subscibe\",\r\n    \"view_dashboard_users\",\r\n    \"view_dashboard_summary_admin_report\",\r\n    \"view_dashboard_summary_report\",\r\n    \"view_dashboard_summary_subscribe_report\"\r\n  ]\r\n}}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "pp",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "body",
+              "modifier": "username",
+              "value": "pp",
+              "operator": "equals"
+            },
+            {
+              "target": "body",
+              "modifier": "password",
+              "value": "pp",
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "AND",
+          "disableTemplating": false,
+          "fallbackTo404": true,
+          "default": false
+        },
+        {
           "uuid": "77478bda-d094-4452-bed6-da5e3b47c5fa",
           "body": "{}",
           "latency": 0,
